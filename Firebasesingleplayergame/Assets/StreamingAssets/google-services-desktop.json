@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "495700518592",
+    "firebase_url": "https://pablos-playroom-default-rtdb.firebaseio.com",
+    "project_id": "pablos-playroom",
+    "storage_bucket": "pablos-playroom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495700518592:android:7b0722800b49e986db2f25",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Firebasesingleplayergame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2NKNfL8m0_eDgqr4dWdxcQ1HRzCnVQVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
