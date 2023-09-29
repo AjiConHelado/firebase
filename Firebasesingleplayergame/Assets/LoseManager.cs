@@ -39,6 +39,17 @@ public class LoseManager : MonoBehaviour
        
         menuUI.SetActive(true);
     }
-
+    public void ontimerend()
+    {
+        score = scoreManager.score;
+        if (score > highScore)
+        {
+            highScore = score;
+            highScoreText.text = highScore.ToString();
+            updateAuth.Invoke();
+        }
+        score = 0;
+        ReloadScene();
+    }
 }
 
